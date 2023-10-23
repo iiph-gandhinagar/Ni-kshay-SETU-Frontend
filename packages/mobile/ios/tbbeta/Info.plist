@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FirebaseDynamicLinksCustomDomains</key>
+	<array>
+		<string>https://app.nikshay-setu.in</string>
+	</array>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Ni-kshay SETU</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>app.nikshay-setu.in</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>app.nikshay-setu.in</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>The app uses audio playing to read chat questions and answers.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Need microphone access to send chatbot queries via speech</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>The app uses photo library to store resource material and user image</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>The app uses speech to text input to capture chatbot query input.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign copy.ttf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo copy.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons copy.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather copy.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome copy.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands copy.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular copy.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid copy.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto copy.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation copy.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>MaterialCommunityIcons copy.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons copy.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Nunito-Black copy.ttf</string>
+		<string>Nunito-Black.ttf</string>
+		<string>Nunito-BlackItalic copy.ttf</string>
+		<string>Nunito-BlackItalic.ttf</string>
+		<string>Nunito-Bold copy.ttf</string>
+		<string>Nunito-Bold.ttf</string>
+		<string>Nunito-BoldItalic copy.ttf</string>
+		<string>Nunito-BoldItalic.ttf</string>
+		<string>Nunito-ExtraBold copy.ttf</string>
+		<string>Nunito-ExtraBold.ttf</string>
+		<string>Nunito-ExtraBoldItalic copy.ttf</string>
+		<string>Nunito-ExtraBoldItalic.ttf</string>
+		<string>Nunito-ExtraLight copy.ttf</string>
+		<string>Nunito-ExtraLight.ttf</string>
+		<string>Nunito-ExtraLightItalic copy.ttf</string>
+		<string>Nunito-ExtraLightItalic.ttf</string>
+		<string>Nunito-Italic copy.ttf</string>
+		<string>Nunito-Italic.ttf</string>
+		<string>Nunito-Light copy.ttf</string>
+		<string>Nunito-Light.ttf</string>
+		<string>Nunito-LightItalic copy.ttf</string>
+		<string>Nunito-LightItalic.ttf</string>
+		<string>Nunito-Medium copy.ttf</string>
+		<string>Nunito-Medium.ttf</string>
+		<string>Nunito-MediumItalic copy.ttf</string>
+		<string>Nunito-MediumItalic.ttf</string>
+		<string>Nunito-Regular copy.ttf</string>
+		<string>Nunito-Regular.ttf</string>
+		<string>Nunito-SemiBold copy.ttf</string>
+		<string>Nunito-SemiBold.ttf</string>
+		<string>Nunito-SemiBoldItalic copy.ttf</string>
+		<string>Nunito-SemiBoldItalic.ttf</string>
+		<string>Octicons copy.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>Raleway-Black copy.ttf</string>
+		<string>Raleway-Black.ttf</string>
+		<string>Raleway-BlackItalic copy.ttf</string>
+		<string>Raleway-BlackItalic.ttf</string>
+		<string>Raleway-Bold copy.ttf</string>
+		<string>Raleway-Bold.ttf</string>
+		<string>Raleway-BoldItalic copy.ttf</string>
+		<string>Raleway-BoldItalic.ttf</string>
+		<string>Raleway-ExtraBold copy.ttf</string>
+		<string>Raleway-ExtraBold.ttf</string>
+		<string>Raleway-ExtraBoldItalic copy.ttf</string>
+		<string>Raleway-ExtraBoldItalic.ttf</string>
+		<string>Raleway-ExtraLight copy.ttf</string>
+		<string>Raleway-ExtraLight.ttf</string>
+		<string>Raleway-ExtraLightItalic copy.ttf</string>
+		<string>Raleway-ExtraLightItalic.ttf</string>
+		<string>Raleway-Italic copy.ttf</string>
+		<string>Raleway-Italic.ttf</string>
+		<string>Raleway-Light copy.ttf</string>
+		<string>Raleway-Light.ttf</string>
+		<string>Raleway-LightItalic copy.ttf</string>
+		<string>Raleway-LightItalic.ttf</string>
+		<string>Raleway-Medium copy.ttf</string>
+		<string>Raleway-Medium.ttf</string>
+		<string>Raleway-MediumItalic copy.ttf</string>
+		<string>Raleway-MediumItalic.ttf</string>
+		<string>Raleway-Regular copy.ttf</string>
+		<string>Raleway-Regular.ttf</string>
+		<string>Raleway-SemiBold copy.ttf</string>
+		<string>Raleway-SemiBold.ttf</string>
+		<string>Raleway-SemiBoldItalic copy.ttf</string>
+		<string>Raleway-SemiBoldItalic.ttf</string>
+		<string>Raleway-Thin copy.ttf</string>
+		<string>Raleway-Thin.ttf</string>
+		<string>Raleway-ThinItalic copy.ttf</string>
+		<string>Raleway-ThinItalic.ttf</string>
+		<string>SimpleLineIcons copy.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial copy.ttf</string>
+		<string>Zocial.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

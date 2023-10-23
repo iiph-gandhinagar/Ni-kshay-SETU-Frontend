@@ -1,0 +1,52 @@
+version: 2.1
+
+name: NS_FE_Deploy
+
+on:
+  push:
+    branches:
+      - circleci
+
+jobs:
+  Web_tests:
+    docker:
+      - image: cimg/node:16.18
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies (Web)
+          command: yarn --legacy-peer-deps
+
+      - run:
+          name: Navigate to packages/web
+          command: |
+            cd packages/web && yarn add react-redux@8.1.2 && npm test
+
+  androidApp_tests:
+    docker:
+      - image: cimg/node:16.18
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v1-dependencies-{{ checksum "package.json" }}
+            - v1-dependencies-
+      - run:
+          name: Install Dependencies (Android)
+          command: npm install --legacy-peer-deps
+
+      - save_cache:
+          paths:
+            - ./node_modules
+          key: v1-dependencies-{{ checksum "package.json" }}
+
+      - run:
+          name: Navigate to packages/mobile
+          command: cd packages/mobile/ && npm test
+
+workflows:
+  version: 2
+  nikhsy_setu_build_test:
+    jobs:
+      - Web_tests
+      - androidApp_tests

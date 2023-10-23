@@ -1,0 +1,6 @@
+<resources>
+    <color name="splashscreen_bg">#0C141A</color>
+    <color name="white">#FFF</color>
+    <color name="status_bar_color">#FFF</color>
+    <color name="app_bg">#fff</color>
+</resources>

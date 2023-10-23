@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": true,
+    "outDir": "./",
+    "sourceMap": false,
+    "module": "commonjs",
+    "target": "es5",
+    "lib": ["dom", "esnext"],
+    "jsx": "react",
+    "strict": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "downlevelIteration": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src/enzyme/index.ts", "src/react-testing-library/index.ts"],
+  "exclude": [
+    "**/coverage/*",
+    "**/dist/*",
+    "./react-testing-library",
+    "./enzyme",
+    "**/node_modules/*"
+  ]
+}

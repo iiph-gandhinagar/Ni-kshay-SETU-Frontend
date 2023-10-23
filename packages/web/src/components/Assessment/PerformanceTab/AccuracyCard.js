@@ -1,0 +1,33 @@
+/** @jsxImportSource theme-ui */
+import React from 'react';
+import { Box, Flex, Heading, Text } from 'theme-ui';
+import { VictoryPie } from 'victory';
+const AccuracyCard = (props) => {
+  return (
+        <div className="col-xxl-4 col-md-6">
+          <Box variant="CompletionRateCard">
+            <Box variant="CompletionRateCardHeader" className="text-center">
+              <Heading variant="Raleway18ExtraBold" sx={{ color: "white" }} className="">Accuracy</Heading>
+            </Box>
+            <div className="position-relative mx-auto chart">
+              <svg viewBox="0 0 400 400">
+                <VictoryPie
+                  standalone={false}
+                  width={400} height={400}
+                  data={[{ 'key': "", 'y': 60 }, { 'key': "", 'y': (100 - 60) }]}
+                  labelComponent={<span />}
+                  innerRadius={180}
+                  // labelRadius={100}
+                  colorScale={["#948BFF", "#F5F5F5"]}
+                />
+              </svg>
+              <div className="text mx-1 text-center">
+                <Heading variant="Heading4" sx={{ color: "Blue_Theme",  }} >80% </Heading>
+              </div>
+            </div>
+          </Box>
+        </div>
+
+  );
+}
+export default AccuracyCard;

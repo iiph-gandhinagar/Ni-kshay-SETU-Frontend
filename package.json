@@ -1,0 +1,29 @@
+{
+  "name": "ns-fe-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Digiflux Technologies Pvt. Ltd. <info@digiflux.io>",
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "*react*",
+      "*react*/**",
+      "*react-native*",
+      "*react-native*/**"
+    ]
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.2",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.3"
+  }
+}
